@@ -162,7 +162,7 @@ export default function Home(){
           </Box>
 
           <Box id="demo" sx={{justifyContent: "center", alignSelf: "center", textAlign: "center"}} mt={40} pt={10} pb={60}>
-            <Typography variant="h4">YouTube video here...</Typography>
+            <Typography variant="h4">YouTube video here one day..</Typography>
             <Link href="/generate" passHref style={{color: "white", textDecoration: 'none', padding: 0, marginRight: "2rem"}}>
               <Button variant="contained" color="primary" sx={{mt: 4, backgroundColor: "#c084fc"}}>Ready to Begin?</Button>
             </Link>

@@ -41,7 +41,7 @@ export async function GET(req){
 export async function POST(req){
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_KEY);
     try {
-        const model = await genAI.getGenerativeModel({model: "gemini-1.5-flash"});
+        const model = await genAI.getGenerativeModel({model: "gemini-2.5-flash-lite"});
         // const body = req.body?.content
         const body = await req.json();
         const lastMsg = body.content || "";
